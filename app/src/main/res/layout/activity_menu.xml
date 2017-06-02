@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/firstColor">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+        <TextView
+            android:id="@+id/userConnecte"
+            android:textColor="@color/colorAccent"
+            android:textSize="18dp"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"/>
+        <TextView
+            android:text="se déconnecter"
+            android:textColor="@color/colorAccent"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/taxe38"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Taxe 38"
+        android:layout_gravity="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="18dp"
+        android:background="@drawable/back_btn_menu"
+        android:layout_margin="5dp"
+        android:onClick="taxe38Click"/>
+
+    <Button
+        android:id="@+id/taxeBoisson"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Taxe Boisson"
+        android:layout_gravity="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="18dp"
+        android:background="@drawable/back_btn_menu"
+        android:layout_margin="5dp"
+        android:onClick="taxeBoissonClick"/>
+
+    <Button
+        android:id="@+id/taxeSejour"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Taxe Séjour"
+        android:layout_gravity="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="18dp"
+        android:background="@drawable/back_btn_menu"
+        android:layout_margin="5dp"
+        android:onClick="taxeSejourClick"/>
+    <Button
+        android:id="@+id/taxeTNB"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Taxe TNB"
+        android:layout_gravity="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="18dp"
+        android:background="@drawable/back_btn_menu"
+        android:layout_margin="5dp"
+        android:onClick="taxeTNBClick"/>
+
+    <Button
+        android:id="@+id/locale"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Locale"
+        android:layout_gravity="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="18dp"
+        android:background="@drawable/back_btn_menu"
+        android:layout_margin="5dp"
+        android:onClick="localeClick"/>
+
+    <Button
+        android:id="@+id/configuration"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Configuration"
+        android:layout_gravity="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="18dp"
+        android:background="@drawable/back_btn_menu"
+        android:layout_margin="5dp"
+        android:onClick="configurationClick"/>
+
+    <Button
+        android:id="@+id/notification"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Notification"
+        android:layout_gravity="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="18dp"
+        android:background="@drawable/back_btn_menu"
+        android:layout_margin="5dp"
+        android:onClick="notificationClick"/>
+
+    <Button
+        android:id="@+id/administration"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Administration"
+        android:layout_gravity="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="18dp"
+        android:background="@drawable/back_btn_menu"
+        android:layout_margin="5dp"
+        android:onClick="administrationClick"/>
+</LinearLayout>

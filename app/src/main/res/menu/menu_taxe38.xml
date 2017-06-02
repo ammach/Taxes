@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/detail"
+        android:showAsAction="ifRoom|withText"
+        android:title="Détail"
+        android:visible="true"/>
+    <item
+        android:id="@+id/listeTaxe38Trimes"
+        android:showAsAction="ifRoom|withText"
+        android:title="Liste des Taxe38 Trimestrielles"
+        android:visible="true"/>
+    <item
+        android:id="@+id/imprimer"
+        android:showAsAction="ifRoom|withText"
+        android:title="Imprimer"
+        android:visible="true"/>
+</menu>

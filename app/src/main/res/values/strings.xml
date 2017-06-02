@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_taxe38">Taxe 38</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="title_activity_first">FirstActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="bordereau"><u>Bordereau de versement</u></string>
+    <string name="DIVISION"><u>DIVISION DE DEVELOPPEMENT</u></string>
+    <string name="ressources"><u>DES RESSOURCES FINANCIERES</u></string>
+</resources>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.ammach.myapplication.Taxe38.Taxe38SearchActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp">
+            <TextView
+                        android:id="@+id/secteur"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Secteur :"
+                        android:gravity="center"
+                        />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp">
+            <TextView
+                android:id="@+id/quartier"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Quartier :"
+                android:gravity="center"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp">
+            <TextView
+                android:id="@+id/rue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rue :"
+                android:gravity="center"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp">
+            <TextView
+                android:id="@+id/paiement"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Paiement :"
+                android:gravity="center"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp">
+            <TextView
+                android:id="@+id/trimMin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Trim Min :"
+                android:gravity="center"
+                />
+            <EditText
+                        android:id="@+id/editTrimMin"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="number"
+                        />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp">
+            <TextView
+                android:id="@+id/trimMax"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Trim Max :"
+                android:gravity="center"
+                />
+            <EditText
+                android:id="@+id/editTrimMax"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp">
+            <TextView
+                android:id="@+id/anneeMin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Année Min :"
+                android:gravity="center"
+                />
+            <EditText
+                android:id="@+id/editAnneeMin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp">
+            <TextView
+                android:id="@+id/anneeMax"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Année Max :"
+                android:gravity="center"
+                />
+            <EditText
+                android:id="@+id/editAnneeMax"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                />
+        </LinearLayout>
+
+        <Button
+                android:id="@+id/rechercher"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rechercher"
+                android:gravity="center"
+                android:onClick="rechercher"/>
+
+    </LinearLayout>
+</RelativeLayout>
